@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		557D0F8B2A013A790092CF7F /* CatVIDEOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557D0F852A013A790092CF7F /* CatVIDEOS.swift */; };
+		557D0F8F2A028B610092CF7F /* CatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557D0F8E2A028B610092CF7F /* CatDetailView.swift */; };
+		55A3ABAA29A7A70B00243915 /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A3ABA929A7A70B00243915 /* CatView.swift */; };
+		55A3ABAC29A8F38900243915 /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A3ABAB29A8F38900243915 /* DogView.swift */; };
+		55AAA175299A732C009D8730 /* PetCare_NKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AAA174299A732C009D8730 /* PetCare_NKApp.swift */; };
+		55AAA177299A732C009D8730 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AAA176299A732C009D8730 /* ContentView.swift */; };
+		55AAA179299A732D009D8730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AAA178299A732D009D8730 /* Assets.xcassets */; };
+		55AAA17C299A732D009D8730 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AAA17B299A732D009D8730 /* Preview Assets.xcassets */; };
+		55AC5E072A0926540032301F /* DogVIDEOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AC5E062A0926540032301F /* DogVIDEOS.swift */; };
+		55AD6C0129B8C73B008AFA4F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD6C0029B8C73B008AFA4F /* ImagePicker.swift */; };
+		55B2CBAE2A0E6A970080A319 /* DogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B2CBAD2A0E6A970080A319 /* DogDetailView.swift */; };
+		55B82AE929D467CB00E7A629 /* CatINFOview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B82AE829D467CB00E7A629 /* CatINFOview.swift */; };
+		55B82AEB29D5B8C300E7A629 /* DogINFOview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B82AEA29D5B8C300E7A629 /* DogINFOview.swift */; };
+		55B947802A2A1D8000947E67 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B9477F2A2A1D8000947E67 /* Notifications.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		557D0F852A013A790092CF7F /* CatVIDEOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatVIDEOS.swift; sourceTree = "<group>"; };
+		557D0F8E2A028B610092CF7F /* CatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailView.swift; sourceTree = "<group>"; };
+		55A3ABA929A7A70B00243915 /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
+		55A3ABAB29A8F38900243915 /* DogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogView.swift; sourceTree = "<group>"; };
+		55AAA171299A732C009D8730 /* PetCare.NK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetCare.NK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AAA174299A732C009D8730 /* PetCare_NKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCare_NKApp.swift; sourceTree = "<group>"; };
+		55AAA176299A732C009D8730 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55AAA178299A732D009D8730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55AAA17B299A732D009D8730 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55AC5E062A0926540032301F /* DogVIDEOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogVIDEOS.swift; sourceTree = "<group>"; };
+		55AD6C0029B8C73B008AFA4F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		55B2CBAD2A0E6A970080A319 /* DogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetailView.swift; sourceTree = "<group>"; };
+		55B82AE829D467CB00E7A629 /* CatINFOview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatINFOview.swift; sourceTree = "<group>"; };
+		55B82AEA29D5B8C300E7A629 /* DogINFOview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogINFOview.swift; sourceTree = "<group>"; };
+		55B9477F2A2A1D8000947E67 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55AAA16E299A732C009D8730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		557D0F7629F6B0630092CF7F /* Dog */ = {
+			isa = PBXGroup;
+			children = (
+				55A3ABAB29A8F38900243915 /* DogView.swift */,
+				55B82AEA29D5B8C300E7A629 /* DogINFOview.swift */,
+				55B2CBAD2A0E6A970080A319 /* DogDetailView.swift */,
+				557D0F802A013A790092CF7F /* SwiftUI-List-Starter */,
+			);
+			path = Dog;
+			sourceTree = "<group>";
+		};
+		557D0F7729F6B0780092CF7F /* Cat */ = {
+			isa = PBXGroup;
+			children = (
+				55A3ABA929A7A70B00243915 /* CatView.swift */,
+				55B82AE829D467CB00E7A629 /* CatINFOview.swift */,
+				557D0F8E2A028B610092CF7F /* CatDetailView.swift */,
+			);
+			path = Cat;
+			sourceTree = "<group>";
+		};
+		557D0F802A013A790092CF7F /* SwiftUI-List-Starter */ = {
+			isa = PBXGroup;
+			children = (
+				557D0F852A013A790092CF7F /* CatVIDEOS.swift */,
+				55AC5E062A0926540032301F /* DogVIDEOS.swift */,
+			);
+			path = "SwiftUI-List-Starter";
+			sourceTree = "<group>";
+		};
+		55AAA168299A732C009D8730 = {
+			isa = PBXGroup;
+			children = (
+				55AAA173299A732C009D8730 /* PetCare.NK */,
+				55AAA172299A732C009D8730 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55AAA172299A732C009D8730 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55AAA171299A732C009D8730 /* PetCare.NK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55AAA173299A732C009D8730 /* PetCare.NK */ = {
+			isa = PBXGroup;
+			children = (
+				55AAA174299A732C009D8730 /* PetCare_NKApp.swift */,
+				55AD6C0029B8C73B008AFA4F /* ImagePicker.swift */,
+				55B9477F2A2A1D8000947E67 /* Notifications.swift */,
+				55AAA176299A732C009D8730 /* ContentView.swift */,
+				557D0F7729F6B0780092CF7F /* Cat */,
+				557D0F7629F6B0630092CF7F /* Dog */,
+				55AAA178299A732D009D8730 /* Assets.xcassets */,
+				55AAA17A299A732D009D8730 /* Preview Content */,
+			);
+			path = PetCare.NK;
+			sourceTree = "<group>";
+		};
+		55AAA17A299A732D009D8730 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55AAA17B299A732D009D8730 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55AAA170299A732C009D8730 /* PetCare.NK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55AAA17F299A732D009D8730 /* Build configuration list for PBXNativeTarget "PetCare.NK" */;
+			buildPhases = (
+				55AAA16D299A732C009D8730 /* Sources */,
+				55AAA16E299A732C009D8730 /* Frameworks */,
+				55AAA16F299A732C009D8730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetCare.NK;
+			productName = PetCare.NK;
+			productReference = 55AAA171299A732C009D8730 /* PetCare.NK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55AAA169299A732C009D8730 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					55AAA170299A732C009D8730 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 55AAA16C299A732C009D8730 /* Build configuration list for PBXProject "PetCare.NK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55AAA168299A732C009D8730;
+			productRefGroup = 55AAA172299A732C009D8730 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55AAA170299A732C009D8730 /* PetCare.NK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55AAA16F299A732C009D8730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AAA17C299A732D009D8730 /* Preview Assets.xcassets in Resources */,
+				55AAA179299A732D009D8730 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55AAA16D299A732C009D8730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B947802A2A1D8000947E67 /* Notifications.swift in Sources */,
+				55AAA177299A732C009D8730 /* ContentView.swift in Sources */,
+				55A3ABAC29A8F38900243915 /* DogView.swift in Sources */,
+				55AD6C0129B8C73B008AFA4F /* ImagePicker.swift in Sources */,
+				55B82AEB29D5B8C300E7A629 /* DogINFOview.swift in Sources */,
+				557D0F8F2A028B610092CF7F /* CatDetailView.swift in Sources */,
+				55B82AE929D467CB00E7A629 /* CatINFOview.swift in Sources */,
+				55B2CBAE2A0E6A970080A319 /* DogDetailView.swift in Sources */,
+				55AC5E072A0926540032301F /* DogVIDEOS.swift in Sources */,
+				557D0F8B2A013A790092CF7F /* CatVIDEOS.swift in Sources */,
+				55AAA175299A732C009D8730 /* PetCare_NKApp.swift in Sources */,
+				55A3ABAA29A7A70B00243915 /* CatView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55AAA17D299A732D009D8730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55AAA17E299A732D009D8730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55AAA180299A732D009D8730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetCare.NK/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DUTUC2QRM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nehank.PetCare-NK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55AAA181299A732D009D8730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetCare.NK/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DUTUC2QRM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nehank.PetCare-NK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55AAA16C299A732C009D8730 /* Build configuration list for PBXProject "PetCare.NK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AAA17D299A732D009D8730 /* Debug */,
+				55AAA17E299A732D009D8730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55AAA17F299A732D009D8730 /* Build configuration list for PBXNativeTarget "PetCare.NK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AAA180299A732D009D8730 /* Debug */,
+				55AAA181299A732D009D8730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55AAA169299A732C009D8730 /* Project object */;
+}
